@@ -32,7 +32,9 @@ In this tutorial series, we will build a web application that uses OpenAI for te
 	
 6. At this point, I recommend using a good code editor. For me, I'm using [Visual Studio Code](https://code.visualstudio.com/) (Good, free, and helpful for deployment)
 7. Open Visual Studio Code
-8. Open the directory project, at this level your project directory content the env directory
+8. Open the directory project, at this level your project directory contains only the env directory
+![enter image description here](https://photos.app.goo.gl/23tRhB3ZekqnSByg7)
+
 
 9.  Create a new file named main.py in the project directory:
 
