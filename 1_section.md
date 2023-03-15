@@ -9,11 +9,11 @@ In this tutorial series, we will build a web application that uses OpenAI for te
     
 2.  Create a new directory for your project:
    
-	   > `mkdir ai_starter` 
+	   > `mkdir AI_STARTER` 
     
 3.  Create a new virtual environment inside the project directory:
 
-    >  `cd ai_starter `  
+    >  `cd AI_STARTER `  
     >  `virtualenv env`
 
     
@@ -40,6 +40,7 @@ In this tutorial series, we will build a web application that uses OpenAI for te
 
 	> main.py
 
+
 10.  Open main.py and add the following code:
 > 	
 >     from flask import Flask
@@ -59,11 +60,22 @@ In this tutorial series, we will build a web application that uses OpenAI for te
 From Visual Studio Code :
 
 > F5
+> For the first execution, you will get a prompt configuration :
+![](https://github.com/dalila-taleb/ai_starter_tutorial/blob/main/Capture%20d'%C3%A9cran%202023-03-15%20001346.png?raw=true)
 
-  
+> Select Flask and click **enter**
+> Then, you will be invited to give the file name 
+![](https://github.com/dalila-taleb/ai_starter_tutorial/blob/main/Capture%20d'%C3%A9cran%202023-03-15%20001420.png?raw=true)
+> Tape : main.py and **enter**
+
 From terminal :
 > `python main.py` 
     
-   You should see output similar to the following:
+You should see output similar to the following:
     
   Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+  
+## Finally :
+Launch your browser and tape http://127.0.0.1:5000/ in the URL and enjoy it !
+
+![](https://github.com/dalila-taleb/ai_starter_tutorial/blob/main/Capture%20d'%C3%A9cran%202023-03-15%20001616.png?raw=true)
