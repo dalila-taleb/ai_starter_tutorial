@@ -3,6 +3,7 @@
 
 In this tutorial series, we will build a web application that uses OpenAI for text completion. The application will run in the browser and allow users to enter a prompt in a text field and receive a completion from OpenAI in a text area.
 
+## Prepare the project environment
 1.  Install virtualenv:
     
 	   > `pip install virtualenv` 
@@ -35,13 +36,13 @@ In this tutorial series, we will build a web application that uses OpenAI for te
 8. Open the directory project, at this level your project directory contains only the env directory
 ![](https://github.com/dalila-taleb/ai_starter_tutorial/blob/main/Capture%20d'%C3%A9cran%202023-03-15%20001241.png?raw=true)
 
-
-9.  Create a new file named main.py in the project directory:
+## Create the V1 of your application
+1.  Create a new file named main.py in the project directory:
 
 	> main.py
 
 
-10.  Open main.py and add the following code:
+2.  Open main.py and add the following code:
 > 	
 >     from flask import Flask
 >     app = Flask(__name__)
@@ -55,7 +56,9 @@ In this tutorial series, we will build a web application that uses OpenAI for te
 
 	    
 
-11.  Save the file and run the application : 
+3.  Save the file.
+
+## Run the application : 
 
 From Visual Studio Code :
 
@@ -75,7 +78,7 @@ You should see output similar to the following:
     
   Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
   
-## Finally :
+## Finally, see the result:
 Launch your browser and tape http://127.0.0.1:5000/ in the URL and enjoy it !
 
 ![](https://github.com/dalila-taleb/ai_starter_tutorial/blob/main/Capture%20d'%C3%A9cran%202023-03-15%20001616.png?raw=true)
